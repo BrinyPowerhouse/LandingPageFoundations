@@ -1,9 +1,45 @@
 body{
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
-
 
 header {
     display: flex;
     align-items:flex-end
+}
+
+.main{
+    display: flex;
+    
+    flex-direction: column;
+    align-content: space-between;
+}
+
+hero{
+    display: flex;
+}
+
+.heroText{
+    flex-direction: column;
+    display: flex;
+}
+
+.beetImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #F9FAF8;
 }
