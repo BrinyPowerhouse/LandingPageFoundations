@@ -127,7 +127,7 @@ header nav{
 }
 
 .signupbox{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 50px;
     width: 70%;
     background-color: #3882F6;
@@ -161,7 +161,7 @@ header nav{
   }
 
 footer{
-    position: fixed;
+    
     bottom:0;
     width: 100%;
     display: flex;
@@ -169,5 +169,5 @@ footer{
     background-color: #1F2937;
     font-size: 18px;
     color: #F9FAF8;
-    margin-top: 100px;
+    
 }
