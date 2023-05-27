@@ -8,30 +8,157 @@ body{
 
 header {
     display: flex;
-    align-items:flex-end
+    align-items:flex-end;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding-left: 250px;
+    padding-right: 200px;
 }
+
+header img{
+    height: auto;
+    width: 7%;
+    margin-left: 20px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 300px;
+}
+
+header nav{
+    margin-left: auto;
+    align-items: top;
+}
+
+.link-list{
+    list-style: none;
+}
+
+.link-list li a {
+    color: white; /* Sets the link text color to white */
+    text-decoration: none; /* Removes underline if present */
+  }
 
 .main{
     display: flex;
-    
     flex-direction: column;
-    align-content: space-between;
+    align-items: center;
+    
+    
 }
 
-hero{
+.hero{
     display: flex;
+    justify-content: space-evenly;
+    align-self: stretch;
+    background-color: #1F2937;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.hero img{
+    height: auto;
+    width: 20%;
 }
 
 .heroText{
     flex-direction: column;
     display: flex;
+    width: 350px;
+    color: #F9FAF8;
+    
 }
+
+.heroText h3{
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.heroText h4{
+    margin: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #4e60c5;
+  }
 
 .beetImages{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-self: stretch;
 }
+
+.BeetText{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+    flex: 1;
+    width: 100%;
+    
+}
+
+.BeetText p{
+    width: 1100px;
+    align-self: center;
+}
+
+.signupbox .signupboxtext{
+    width: 500px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.signupbox{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 70%;
+    background-color: #3882F6;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.buttoncontainer{
+    align-self: center;
+    display: inline-block; /* Ensure the container wraps around the button */
+    border: 2px solid #E5E7EB; /* Add a solid black border around the container */
+    padding: 1px; /* Add some padding around the button */
+    border-radius: 4px;
+}
+
+.signupboxtext{
+    align-self: center;
+    margin-bottom: 0; /* Remove the bottom margin */
+}
+
+  .signupboxtext h3 {
+    font-weight: bolder; /* Make the h3 text bold */
+    margin-bottom: 0px;
+  }
+  
+  .signupboxtext h4 {
+    margin-top: 0; /* Remove the top margin */
+    font-weight: 100;
+  }
 
 footer{
     position: fixed;
@@ -42,4 +169,5 @@ footer{
     background-color: #1F2937;
     font-size: 18px;
     color: #F9FAF8;
+    margin-top: 100px;
 }
